@@ -1,0 +1,234 @@
+body {
+	background-color: #777;
+}
+
+#mainBox {
+	background-color: #ddd;
+	border-radius: 20px;
+	box-shadow: 0px 10px 20px #333;
+	
+	margin: auto;
+	width: 300px;
+	height: 444px;
+	margin-top: 90px;
+}
+
+#innerBox {
+	background-color: #ddc;
+	border: 2px solid #aaa;
+	border-radius: 20px;
+	width: 100%;
+	height: 100%;
+	box-shadow: 0px -5px 10px #999 inset;
+}
+
+#calcName {
+	text-align: center;
+	margin-top: 20px;
+	font: 20px 'Nova Square', sans-serif;
+}
+
+
+
+/* screen */
+#calcScreen {
+	width: 250px;
+	height: 72px;
+	margin: auto;
+	margin-top: 15px;
+	background-color: #D1DBB6;
+	border: 2px solid #ABB581;
+	border-radius: 10px;
+	box-shadow: 0px 2px 4px #939C6E inset;
+}
+
+#display1 {
+	text-align: right;
+	width: 230px;
+	margin: auto;
+	margin-top: 5px;
+	font: 40px 'Iceberg', sans-serif;
+	line-height: 40px;
+}
+
+#display2 {
+	text-align: right;
+	width: 230px;
+	margin: auto;
+	font: 20px 'Iceberg', sans-serif;
+	line-height: 20px;
+	color: #777;
+}
+
+
+
+/* buttons - general */
+#kaypad {
+	background-color: #fff;
+	width: 250px;
+	margin: auto;
+	margin-top: 20px;
+	position: relative;
+}
+
+.button {
+	position: absolute;
+	display: inline-block;
+	width: 52px;
+	height: 46px;
+	border-radius: 7px;
+	border-bottom: 3px solid #000;
+	background-color: #444;
+	color: #eee;
+	box-shadow: 0px -10px 10px #555 inset;
+	font: 20px 'Nova Square', sans-serif;
+	text-align: center;
+	line-height: 46px;
+	
+	-moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.red {
+	background-color: #A63737;
+	box-shadow: 0px -10px 10px #913030 inset;
+	border-bottom: 3px solid #4D1818;
+}
+
+.button:hover {
+	cursor: pointer;
+}
+
+.button:active {
+	position: absolute;
+	box-shadow: none;
+	border-bottom: none;
+	margin-top: 3px;
+}
+
+
+
+/* buttons - specific */
+#bac {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#bce {
+	position: absolute;
+	top: 0px;
+	left: 66px;
+}
+
+#bdiv {
+	position: absolute;
+	top: 0px;
+	right: 66px;
+}
+
+#btimes {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+#b7 {
+	position: absolute;
+	top: 55px;
+	left: 0px;
+}
+
+#b8 {
+	position: absolute;
+	top: 55px;
+	left: 66px;
+}
+
+#b9 {
+	position: absolute;
+	top: 55px;
+	right: 66px;
+}
+
+#bminus {
+	position: absolute;
+	top: 55px;
+	right: 0px;
+}
+
+#b4 {
+	position: absolute;
+	top: 110px;
+	left: 0px;
+}
+
+#b5 {
+	position: absolute;
+	top: 110px;
+	left: 66px;
+}
+
+#b6 {
+	position: absolute;
+	top: 110px;
+	right: 66px;
+}
+
+#bplus {
+	position: absolute;
+	top: 110px;
+	right: 0px;
+}
+
+#b1 {
+	position: absolute;
+	top: 165px;
+	left: 0px;
+}
+
+#b2 {
+	position: absolute;
+	top: 165px;
+	left: 66px;
+}
+
+#b3 {
+	position: absolute;
+	top: 165px;
+	right: 66px;
+}
+
+#beq {
+	position: absolute;
+	top: 165px;
+	right: 0px;
+	height: 100px;
+	line-height: 100px;
+}
+
+#b0 {
+	position: absolute;
+	top: 220px;
+	left: 0px;
+	width: 118px;
+}
+
+#bdot {
+	position: absolute;
+	top: 220px;
+	right: 66px;
+}
+/* ----------------- */
+
+
+
+#myBox {
+	margin-top: 20px;
+	font: 13px 'Nova Square', sans-serif;
+	text-align: center;
+	color: #8f8f8f;
+}
